@@ -271,10 +271,6 @@
   margin: 0 50px 82px 50px;
 }
 
-.address {
-  justify-self: start;
-}
-
 .footer__menu {
   display: flex;
   flex-direction: column;
