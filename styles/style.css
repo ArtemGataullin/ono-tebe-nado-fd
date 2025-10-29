@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: 1fr min-content max-content;
   align-items: center;
-  gap: 107px;
-  padding: 90px 50px ;
+  padding: 90px 48px ;
 }
 
 .header__links-list {
   display: flex;
   gap: 33px;
   text-transform: lowercase;
+  padding-right: 36.52px;
 }
 
 .header__links-list-item {
@@ -25,6 +25,7 @@
 
 .header__logo {
   display: block;
+  margin-right: 184px;
 }
 
 .header__logo-image {
@@ -35,7 +36,7 @@
 .address {
   display: flex;
   flex-direction: column;
-  justify-self: end;
+  justify-self: start;
   align-items: flex-start;
   max-width: 240px;
   font-style: normal;
@@ -43,7 +44,7 @@
   text-underline-offset: 4px;
 }
 
-.header__link_active {
+.address__text {
   text-decoration: none;
 }
 
@@ -149,11 +150,12 @@
   display: flex;
   gap: 25px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
-  min-width: 334px;
-  min-height: 596px;
+  width: 334px;
+  height: 596px;
   margin-bottom: 30px;
 }
 .card-link {
@@ -163,7 +165,7 @@
 }
 
 .card {
-  z-index: -1;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -281,25 +283,22 @@
 .footer__menu-list {
   text-align: center;
   list-style: none;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-list-item {
   line-height: 22px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
   text-decoration: none;
 }
 
-.footer__social {
-  justify-self: end;
-}
-
 .footer__social-list {
   display: flex;
   gap: 48px;
   list-style:none;
+  justify-self: end;
 }
 
 .footer__social-icon {
