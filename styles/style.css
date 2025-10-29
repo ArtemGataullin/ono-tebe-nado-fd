@@ -23,6 +23,10 @@
   list-style:none;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__logo {
   display: block;
   margin-right: 184px;
@@ -41,7 +45,7 @@
   max-width: 240px;
   font-style: normal;
   line-height: 24.3px;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 
 .address__text {
@@ -119,6 +123,7 @@
 }
 
 .bet-button {
+  cursor: pointer;
   z-index: 0;
   border: 1px solid white;
   padding: 13px 31px;
@@ -155,9 +160,10 @@
 
 .lots__card-list-item {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   margin-bottom: 30px;
 }
+
 .card-link {
   position: relative;
   height: 100%;
